@@ -557,7 +557,7 @@
 
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
   }
   .project-card {
@@ -1214,7 +1214,29 @@
         ⌥ View on GitHub
       </a>
     </div>
-  </div>
+
+    <div class="project-card">
+      <div class="project-num">04</div>
+      <div class="project-title">Personal Productivity Dashboard</div>
+      <div class="project-subtitle">React · TypeScript · Cloudflare · Full-Stack Project</div>
+      <p class="project-desc">
+        Built a secure, responsive productivity dashboard with authenticated task, note, reminder, and schedule workflows. Designed a Cloudflare Worker API backed by D1, with ownership isolation, server-side validation, secure session handling, recurring reminder data, and automated tests. The dashboard is deployed globally on Cloudflare and links directly back to this portfolio.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">React</span>
+        <span class="project-tag">TypeScript</span>
+        <span class="project-tag">Cloudflare Workers</span>
+        <span class="project-tag">D1</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:1.5rem;">
+        <a href="https://personal-dashboard-api.dhairya-dashboard.workers.dev" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.7rem;letter-spacing:0.15em;color:var(--gold);text-decoration:none;border:1px solid rgba(201,168,76,0.35);padding:0.55rem 0.9rem;">
+          ↗ Open Dashboard
+        </a>
+        <a href="https://github.com/Dhairya1010/Dashboard" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:0.5rem;font-size:0.7rem;letter-spacing:0.15em;color:var(--neon-blue);text-decoration:none;border:1px solid rgba(0,200,255,0.25);padding:0.55rem 0.9rem;">
+          ⌥ View on GitHub
+        </a>
+      </div>
+    </div>  </div>
 </section>
 
 <!-- ──────────── CERTIFICATIONS ──────────── -->
